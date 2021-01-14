@@ -2,7 +2,7 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style/style.css">
     <title>Pokedex</title>
   </head>
   <body>
@@ -41,8 +41,8 @@
       $bs_ex = $row["base_experience"];
       if($bs_ex>=200) {
       ?>
-        <tr>
-        <td ><img src="sprites/<?php echo $nom; ?>.png" alt="<?php echo $nom; ?>"></td>
+        <tr class="super">
+        <td><img src="sprites/<?php echo $nom; ?>.png" alt="<?php echo $nom; ?>"></td>
         <td><?php echo $id; ?></td>
         <td><?php echo $nom; ?></td>
         <td><?php echo $height; ?></td>
