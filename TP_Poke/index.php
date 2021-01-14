@@ -7,7 +7,7 @@
   </head>
   <body>
   <?php
-  $link = mysqli_connect("localhost", "root", "", "pokedex");
+  $link = mysqli_connect("localhost", "root", "", "Pokedex");
     if (!$link) {
         echo "Erreur : Impossible de se connecter à MySQL." . PHP_EOL;
         echo "Errno de débogage : " . mysqli_connect_errno() . PHP_EOL;
